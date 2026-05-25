@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=Atkinson+Hyperlegible+Next:wght@400;500;600&amp;family=Manrope:wght@600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#62611f",
+                    "tertiary-fixed-dim": "#ccca7c",
+                    "surface-container-high": "#ebe8dc",
+                    "on-secondary-fixed-variant": "#4e4638",
+                    "outline": "#767869",
+                    "primary-container": "#6a7c32",
+                    "tertiary-container": "#b1af64",
+                    "surface-tint": "#54651e",
+                    "error": "#ba1a1a",
+                    "outline-variant": "#c6c8b6",
+                    "on-secondary-fixed": "#211b0f",
+                    "on-primary-container": "#fbffe4",
+                    "on-error-container": "#93000a",
+                    "secondary-container": "#ebdecb",
+                    "on-surface-variant": "#46483b",
+                    "on-primary-fixed": "#161e00",
+                    "surface-dim": "#dcdace",
+                    "on-error": "#ffffff",
+                    "surface-container": "#f0eee1",
+                    "on-primary": "#ffffff",
+                    "background": "#fcfaed",
+                    "surface-variant": "#e5e3d6",
+                    "secondary": "#665d4e",
+                    "on-secondary-container": "#6b6152",
+                    "inverse-surface": "#313128",
+                    "on-tertiary": "#ffffff",
+                    "secondary-fixed-dim": "#d1c5b3",
+                    "on-tertiary-fixed-variant": "#4a4907",
+                    "surface-container-low": "#f6f4e7",
+                    "surface": "#fcfaed",
+                    "on-tertiary-fixed": "#1d1d00",
+                    "inverse-on-surface": "#f3f1e4",
+                    "on-background": "#1c1c14",
+                    "primary": "#52621c",
+                    "surface-container-highest": "#e5e3d6",
+                    "primary-fixed-dim": "#bbcf7c",
+                    "primary-fixed": "#d7ec95",
+                    "secondary-fixed": "#eee1ce",
+                    "on-secondary": "#ffffff",
+                    "on-surface": "#1c1c14",
+                    "error-container": "#ffdad6",
+                    "surface-bright": "#fcfaed",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-fixed": "#e9e695",
+                    "on-primary-fixed-variant": "#3d4c05",
+                    "inverse-primary": "#bbcf7c",
+                    "on-tertiary-container": "#434200"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "container-max-width": "1200px",
+                    "margin-mobile": "16px",
+                    "unit": "8px",
+                    "section-padding": "80px"
+            },
+            "fontFamily": {
+                    "body-lg": ["Atkinson Hyperlegible Next"],
+                    "body-md": ["Atkinson Hyperlegible Next"],
+                    "h1": ["clamp(--font-family-h1)"],
+                    "h3": ["Plus Jakarta Sans"],
+                    "label-md": ["Manrope"],
+                    "h2": ["Plus Jakarta Sans"]
+            },
+            "fontSize": {
+                    "body-lg": ["20px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "h1": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "h3": ["24px", {"lineHeight": "1.4", "fontWeight": "500"}],
+                    "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "h2": ["36px", {"lineHeight": "1.3", "letterSpacing": "-0.01em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .ambient-shadow {
+            box-shadow: 0 20px 40px rgba(112, 130, 56, 0.08);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #fcfaed 0%, #f6f4e7 100%);
+        }
+    </style>
+</head>
+<body>
+    <header class="fixed top-0 w-full z-50 flex justify-between items-center px-gutter py-4 max-w-container-max-width mx-auto bg-surface/90 backdrop-blur-md shadow-sm shadow-primary/5">
+<div class="font-h2 text-h2 font-semibold text-primary">Dra. Thais Franco - Psicóloga</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-300" href="quem sou.html">Quem sou</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-300" href="como trabalho.html">Como trabalho</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-300" href="especialidade.html">Áreas de atuação</a>
+<a class="text-secondary font-medium hover:text-primary transition-colors duration-300" href="consultas.html">Consultas</a>
+
+</nav>
+<div class="flex items-center gap-4">
+
+</header>
+    <section class="py-section-padding px-gutter bg-surface-dim/20" id="consultas">
+<div class="max-w-container-max-width mx-auto">
+<div class="bg-surface rounded-[2.5rem] overflow-hidden flex flex-col lg:flex-row ambient-shadow">
+<div class="w-full lg:w-1/2 relative min-h-[400px]">
+<img class="w-full h-full object-cover" data-alt="A modern laptop on a clean wooden desk with a notebook and a plant. The screen shows a video call interface, suggesting a high-quality online therapy session. The lighting is warm and bright, conveying a sense of professional comfort and technical reliability. The overall aesthetic is minimalist and organized, promoting a sense of peace." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrTLJcQ79GcMWewSLsQ79fs3uhhf-jUyhlc5GCOLpPjkbMQv10kPr1vqKC8Xxe7UkOZxvUZJydjvx-ezU6mxV-j06GMGOAQRf0cUuewA5CWSrG_kPj3FYhLb8eRPa32zeS-drvO5MQNybWqjesu-4uw-AOXkJMXqK5-9lZ1jK-jkoIRag1ORersHheQ24S2XBmXi_mCu4DQDr7rqpbrTMNDZDa110qP15gflXPN2rf--xHb8HFpY94AzH5RpE8kbMELyutVf4Qa-g">
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+<div class="w-full lg:w-1/2 p-12 lg:p-20 flex flex-col justify-center space-y-8">
+<h2 class="font-h2 text-h2 text-primary">Formas de Atendimento</h2>
+<div class="space-y-6">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">video_chat</span>
+<div>
+<h4 class="font-bold text-primary">Online (Telepsicologia)</h4>
+<p class="text-on-surface-variant">Sessões por vídeo com a mesma eficácia do presencial, no conforto da sua casa. Atendimento para todo o Brasil e brasileiros no exterior.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">apartment</span>
+<div>
+<h4 class="font-bold text-primary">Presencial</h4>
+<p class="text-on-surface-variant">Consultório localizado em região central, com ambiente climatizado, confortável e totalmente acessível.</p>
+</div>
+</div>
+</div>
+<hr class="border-outline-variant">
+<div>
+<p class="font-body-md text-on-surface-variant mb-6 italic">"O primeiro passo não te tira de onde você está, mas te tira de onde você não quer mais estar."</p>
+<button class="w-full bg-primary text-on-primary py-5 rounded-xl font-h3 text-h3 flex items-center justify-center gap-3 active:scale-95 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+                            
+    <a class="text-on-primary hover:text-on-primary/80" href="http://wa.me/55995520242" target="_blank">Agende sua consulta agora</a>
+
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</body>
+<!-- Footer -->
+<footer class="w-full flex flex-col md:flex-row justify-between items-center gap-unit px-gutter py-section-padding bg-surface-container-high text-secondary">
+<div class="flex flex-col gap-2">
+<div class="font-h3 text-h3 font-bold text-tertiary">Dra. Thais Franco Psicóloga</div>
+<p class="font-body-md text-body-md max-w-xs opacity-70">Cuidando de você, um passo de cada vez. Atendimento especializado e humanizado.</p>
+</div>
+<div class="flex flex-col items-center md:items-end gap-6">
+<div class="flex gap-8">
+<a class="flex items-center gap-2 text-primary font-bold hover:opacity-80 transition-opacity" href="#">
+<svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+                 <a href="http://instagram.com/thaisfranco.psi" target="_blank">Instagram</a>   
+                  
+                
+</div>
+<p class="font-body-md text-body-md text-center md:text-right">© 2026 Dra. Thais Franco Psicóloga - Todos os direitos reservados. CRP 01/17566</p>
+</div>
+</footer>
+</html>
